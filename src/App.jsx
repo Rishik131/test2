@@ -11,7 +11,7 @@ function App() {
     <>
     <Router>
       <Routes>
-        <Route exact path="/" element={<Greet/>} />
+        <Route exact path="/test2" element={<Greet/>} />
       </Routes>
     </Router>
       
@@ -24,6 +24,7 @@ const Greet = () =>{
     <>
       hey there man!
       its working
+      how is it working!!!!!!!!!!!
     </>
   )
 }
